@@ -1,6 +1,10 @@
 (ns blog.core)
 
-(js/console.log "Hello world!")
+(js/document.onload
+ (fn []
+   (js/console.log "Hello world!")
+   (set! (.-innerHTML (js/document.getElementById "app"))
+         "Hello world!")))
 
 (comment
   ; build a dev version
