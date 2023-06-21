@@ -1,6 +1,6 @@
 (ns blog.core)
 
-(js/document.write "Hello world!")
+(js/console.log "Hello world!")
 
 (comment
   ; build a dev version
