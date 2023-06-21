@@ -1,0 +1,1 @@
+{:browser-repl true, :output-dir "blog/out", :main blog.core, :output-to "blog/out/main.js", :aot-cache true}
